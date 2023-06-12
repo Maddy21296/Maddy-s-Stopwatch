@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="animate__animated animate__zoomInDown">Maddy's Stopwatch</h1>
+    <div id="containor">
+        <div id="time">
+            <span class="digit" id="hr">00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">00</span>
+            <span class="txt">min</span>
+            <span class="digit" id="sec">00</span>
+            <span class="txt">sec</span>
+            <span class="digit" id="count">00</span>
+            
+        </div>
+        <div id="btn-containor">
+            <button class="btn" id="start" onclick="start()">Start</button>
+            <button class="btn" id="stop" onclick="stop()">Stop</button>
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <footer class="foo">
+        <p>
+            "Code with ❤️ by "
+            <a href="https://github.com/Maddy21296?tab=projects">Maddy</a>
+        </p>
+    </footer>
+
+    <script src="sctipt.js"></script>
+</body>
+</html>
